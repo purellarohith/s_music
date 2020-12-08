@@ -18,7 +18,6 @@ export const ContextApi = ({ children }) => {
   const firstCheck = async () => {
     //
     const Check = {};
-    //
 
     Check.readData = async () => {
       let a = [];
