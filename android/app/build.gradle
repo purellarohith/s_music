@@ -188,7 +188,9 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
     implementation project(':react-native-track-player')
+    implementation project(':react-native-fs')
     implementation project(':react-native-permissions')
+    implementation project(':react-native-open-settings')
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'

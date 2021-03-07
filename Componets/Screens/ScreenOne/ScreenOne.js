@@ -5,6 +5,7 @@ import ListComponet from './ScreenComponents/ListComponent';
 import MiddleComponent from './ScreenComponents/MiddleComponent';
 
 const ScreenOne = () => {
+  
   return (
     <>
       <StatusBar hidden />

@@ -5,6 +5,8 @@ include ':react-native-vector-icons'
 include ':react-native-fs'
 include ':react-native-track-player'
 include ':react-native-permissions'
+include ':react-native-open-settings'
+project(':react-native-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-open-settings/android')
 project(':react-native-permissions').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-permissions/android')
 project(':react-native-track-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-track-player/android')
 project(':react-native-fs').projectDir = new File(settingsDir, '../node_modules/react-native-fs/android')
